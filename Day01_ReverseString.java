@@ -1,5 +1,5 @@
-class Solution {
-    public void reverseString(char[] s) {
+public class Day01_ReverseString {
+    public static void reverseString(char[] s) {
         int left=0;
         int right=s.length-1;
         while(left<right){
@@ -9,5 +9,11 @@ class Solution {
             left++;
             right--;
         }
+    }
+    public static void main(String[] args)
+    {
+        char[] s= {'h','e','l','l','o'};
+        reverseString(s);
+        System.out.println(s);
     }
 }

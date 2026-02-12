@@ -1,5 +1,5 @@
-class Solution {
-    public void moveZeroes(int[] nums) {
+public class Solution {
+    public static void moveZeroes(int[] nums) {
         int i=0;
         int j=0;
         for(j=0;j<nums.length;j++){
@@ -13,4 +13,6 @@ class Solution {
         }
         
     }
+    public static void main(String[] args)
+    
 }

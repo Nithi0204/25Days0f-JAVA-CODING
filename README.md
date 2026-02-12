@@ -8,3 +8,11 @@ Platform : Leetcode(#344)
 
 Language : Java
 
+## Day 2
+Problem : Move Zeroes
+
+Platform : Leetcode(#283)
+
+Language : Java
+
+

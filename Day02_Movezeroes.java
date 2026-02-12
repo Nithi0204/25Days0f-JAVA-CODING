@@ -1,5 +1,6 @@
-public class Solution {
-    public static void moveZeroes(int[] nums) {
+import java.util.*;
+public class solution{
+public static void moveZeroes(int[] nums) {
         int i=0;
         int j=0;
         for(j=0;j<nums.length;j++){
@@ -13,6 +14,8 @@ public class Solution {
         }
         
     }
-    public static void main(String[] args)
-    
-}
+    public static void main(String[] args){
+    int[] nums={0,1,0,3,12};
+    moveZeroes(nums);
+    System.out.println(Arrays.toString(nums));
+    }

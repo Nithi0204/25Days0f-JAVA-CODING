@@ -15,4 +15,12 @@ Platform : Leetcode(#283)
 
 Language : Java
 
+## Day 3
+Problem : Missing numbers
+
+Platform : Leetcode(#268)
+
+Language : Java
+
+
 

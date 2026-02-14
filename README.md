@@ -23,7 +23,7 @@ Platform : Leetcode(#268)
 Language : Java
 
 ## Day 4
-Problem : Contain Duplicates
+Problem : Contains Duplicate
 
 Platform : Leetcode(#217)
 

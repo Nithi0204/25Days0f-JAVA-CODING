@@ -1,0 +1,21 @@
+class Solution {
+    public int fib(int n) {
+        int frt=0;
+        int nxt=1;
+        int sum=0;
+        if(n==0){
+            return frt;
+        }
+        for(int i=2;i<=n;i++){
+            sum=frt+nxt;
+            frt=nxt;
+            nxt=sum;
+        }
+        return nxt;
+    }
+public static void main(String[]args){
+	Fibo obj=new Fibo();
+	int n=2;
+	System.out.println(obj.fib(n));
+}
+}

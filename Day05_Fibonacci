@@ -1,4 +1,4 @@
-class Solution {
+public class Day05_Fibonacci{
     public int fib(int n) {
         int frt=0;
         int nxt=1;

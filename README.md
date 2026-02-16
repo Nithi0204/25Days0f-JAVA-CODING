@@ -36,6 +36,14 @@ Platform : Leetcode(#509)
 
 Language : Java
 
+## Day 6
+Problem : Two sum
+
+Platform : Leetcode(#01)
+
+Language : Java
+
+
 
 
 

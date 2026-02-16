@@ -1,5 +1,5 @@
 import java.util.*;
-public class solution{
+public class Day02_Movezeroes{
 public static void moveZeroes(int[] nums) {
         int i=0;
         int j=0;

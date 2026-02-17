@@ -43,6 +43,14 @@ Platform : Leetcode(#01)
 
 Language : Java
 
+## Day 7
+Problem : Palindrome
+
+Platform : Leetcode(#125)
+
+Language : Java
+
+
 
 
 

@@ -50,6 +50,14 @@ Platform : Leetcode(#125)
 
 Language : Java
 
+## Day 8
+Problem : Valid Parentheses
+
+Platform : Leetcode(#20)
+
+Language : Java
+
+
 
 
 

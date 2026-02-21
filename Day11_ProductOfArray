@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class ProductOfArray {
+
+    public int[] productExceptSelf(int[] nums) {
+        int n = nums.length;
+        int post = 1;
+        int pre = 1;
+        int[] result = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            result[i] = 1;
+        }
+
+        // Prefix product
+        for (int i = 0; i < n; i++) {
+            result[i] *= pre;
+            pre *= nums[i];
+        }
+
+        // Suffix product
+        for (int i = n - 1; i >= 0; i--) {
+            result[i] *= post;
+            post *= nums[i];
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number of elements:");
+        int n = sc.nextInt();
+
+        int[] nums = new int[n];
+
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
+        }
+
+        Solution obj = new Solution();
+        int[] result = obj.productExceptSelf(nums);
+
+        System.out.println("Output:");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
+
+        sc.close();
+    }
+}

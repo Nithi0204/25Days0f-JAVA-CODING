@@ -78,6 +78,14 @@ Platform : Leetcode(#238)
 
 Language : Java
 
+## Day 12
+Problem : Palindrome Number
+
+Platform : Leetcode(#09)
+
+Language : Java
+
+
 
 
 

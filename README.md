@@ -85,6 +85,15 @@ Platform : Leetcode(#09)
 
 Language : Java
 
+## Day 12
+Problem : Single Number
+
+Platform : Leetcode(#136)
+
+Language : Java
+
+
+
 
 
 

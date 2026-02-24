@@ -85,12 +85,21 @@ Platform : Leetcode(#09)
 
 Language : Java
 
-## Day 12
+## Day 13
 Problem : Single Number
 
 Platform : Leetcode(#136)
 
 Language : Java
+
+## Day 14
+Problem : Pascal's Triangle
+
+Platform : Leetcode(#118)
+
+Language : Java
+
+
 
 
 

@@ -1,0 +1,37 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class PascalsTriangle {
+
+    public static void main(String[] args) {
+
+        int numRows = 5;
+
+        List<List<Integer>> result = generate(numRows);
+        System.out.println(result);
+    }
+
+    public static List<List<Integer>> generate(int numRows) {
+
+        List<List<Integer>> pascals = new ArrayList<>();
+
+        for (int i = 0; i < numRows; i++) {
+
+            List<Integer> row = new ArrayList<>();
+
+            for (int j = 0; j <= i; j++) {
+
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    List<Integer> previousRow = pascals.get(i - 1);
+                    row.add(previousRow.get(j) + previousRow.get(j - 1));
+                }
+            }
+
+            pascals.add(row);
+        }
+
+        return pascals;
+    }
+}

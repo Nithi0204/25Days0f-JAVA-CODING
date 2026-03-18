@@ -127,6 +127,14 @@ Platform : Leetcode(#58)
 
 Language : Java
 
+## Day 19
+Problem : Find The Index Of The First Occurrence Of a String
+
+Platform : Leetcode(#28)
+
+Language : Java
+
+
 
 
 

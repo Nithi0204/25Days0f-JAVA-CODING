@@ -134,6 +134,14 @@ Platform : Leetcode(#28)
 
 Language : Java
 
+## Day 20
+Problem : Valid Perfect Square 
+
+Platform : Leetcode(#367)
+
+Language : Java
+
+
 
 
 

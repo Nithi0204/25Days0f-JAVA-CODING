@@ -11,7 +11,7 @@ public class Palindrome {
 			sum=(sum*10)+rem;
 			x/=10;
 		}
-			if(rev==temp) 
+			if(sum==temp) 
 				System.out.println("IT'S A  PALINDROME ");
 			else 
 				System.out.println("IT IS NOT A PALINDROME");	
